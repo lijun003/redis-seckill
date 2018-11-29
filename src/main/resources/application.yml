@@ -1,0 +1,12 @@
+spring:
+  jackson:
+    propertyNamingStrategy: SNAKE_CASE
+#    dateFormat: yyyy-MM-dd'T'HH:mm:ss'Z'
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/tianfu?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password:
+  redis:
+    host: localhost
+    port: 6379
